@@ -2,14 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hema's Portfolio</title>
+
+    <link rel="stylesheet" href="../assets/css/resets.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="stylesheet" href="../assets/js/contact.js">
 </head>
+
 <body>
+<header>
+    <div class="portfolio-title">
+        <h1>Hemalashvini Ragoo Portfolio</h1>
+    </div>
+    <nav class="links">
+        <ul>
+            <li><a href="/about-me">About Me</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class = "contact-me">
+
+            <h1>Let's Connect</h1>
+            <br>
+            <p>Get in touch for more any projects with me. Fill in the contact form below.</p>
+            <br>
+
+    </div>
+
+
+    <div class="contact-page-content">
+            <div class="contact-form">
+                <div class="contact-name">
+                    <p>Name:</p>
+                    <label for="name-insert">
+                    <input type="text" class="name-insert" id="name-insert" placeholder="Type here"/>
+                    </label>
+                </div>
+
+                <div class = contact-number">
+                        <p>Contact:</p>
+                    <label for = "contact-insert">
+                        <input type="text" class="contact-insert" id="contact-insert" placeholder="Type here"/>
+                    </label>
+                </div>
+
+               <div class="contact-message">
+                   <p>Message:</p>
+                   <label for="msg-insert">
+                       <textarea class="message-insert" id="msg-insert" placeholder="Type here"></textarea>
+                   </label>
+               </div>
+
+                <br>
+
+                <div class="contact-buttons">
+                    <button>Send</button>
+                    <button onclick="clearFields()">Clear</button>
+                    <script src="../assets/js/contact.js"></script>
+
+                </div>
+            </div>
+
+
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13541.899113484618!2d115.8610574!3d-31.9480141!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32bacdf53147a1%3A0x6a13f7dd60dab2c8!2sNorth%20Metropolitan%20TAFE!5e0!3m2!1sen!2sau!4v1683952185127!5m2!1sen!2sau"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+    </div>
+</main>
+
+
 
 </body>
 <footer>
     <div class="footer-HR-logo">
-        <img src="assets/images/3dcc1dd9a3279785c7a5d1e33e8218d8.jpg" height="150" width="150"/>
+        <img src="../assets/images/3dcc1dd9a3279785c7a5d1e33e8218d8.jpg" height="150" width="150" alt="Hema Ragoo Logo"/>
     </div>
     <div class="information-to-copyrights">
         <h3>© Copyright 2023, All rights reserved to Hemalashvini Ragoo.</h3>
@@ -17,9 +93,9 @@
     </div>
     <div class="footer">
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact Me</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="/about-me">About Me</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </div>
 </footer>
