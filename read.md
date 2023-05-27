@@ -23,3 +23,5 @@ other inspirations are shown below:
 Fonts used in the site are:
 
 - Lucida Sans
+
+![img.png](img.png)
