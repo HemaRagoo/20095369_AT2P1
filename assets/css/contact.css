@@ -107,11 +107,7 @@ main {
     padding-left: 5rem;
 }
 
-footer {
-    background-color: peachpuff;
-    padding: 1rem;
-    bottom: 0;
-}
+
 
 section {
     padding: 2rem 0;
@@ -137,11 +133,7 @@ section {
     grid-column: 1 / span 2;
 }
 
-.profile-pic {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
+
 
 .contact-page {
     grid-column: 2 / span 1;
@@ -149,6 +141,11 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+
+.contact-page-content{
+    height: 60vh;
 }
 
 .contact-form {
@@ -195,4 +192,21 @@ section {
 
 .hidden {
     display: none;
+}
+
+footer {
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-left: 2rem;
 }
