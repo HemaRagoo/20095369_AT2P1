@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be15d83b-465e-4a44-b7a5-294443b30695" name="Changes" comment="digital clock done" />
+    <list default="true" id="be15d83b-465e-4a44-b7a5-294443b30695" name="Changes" comment="time table">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/timestable.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/timestable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/timestable.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/timestable.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +72,7 @@
       <updated>1686300702853</updated>
       <workItem from="1686300703865" duration="1842000" />
       <workItem from="1686737945661" duration="5446000" />
-      <workItem from="1686812184064" duration="2854000" />
+      <workItem from="1686812184064" duration="3829000" />
     </task>
     <task id="LOCAL-00001" summary="2ndDraft">
       <created>1686809775055</created>
@@ -119,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686814752095</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="time table">
+      <created>1686815181369</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686815181369</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +153,7 @@
     <MESSAGE value="Clock JS CSS" />
     <MESSAGE value="Clock JS CSS with colon blinking" />
     <MESSAGE value="digital clock done" />
-    <option name="LAST_COMMIT_MESSAGE" value="digital clock done" />
+    <MESSAGE value="time table" />
+    <option name="LAST_COMMIT_MESSAGE" value="time table" />
   </component>
 </project>
