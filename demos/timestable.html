@@ -25,38 +25,35 @@
 
 <main>
     <section>
-        <header class="clock">
-
-        </header>
 
         <div id="times-table">
 
             <h1>Times Tables Demo</h1>
 
             <div class="dropdown">
-
                 <div class="dropdown-content">
                     <select id="timesTableSelect">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
 
-                        <button class="dropbtn">Select Times Table</button>
                     </select>
                 </div>
             </div>
 
-            <div id="timesTableOutput"></div>
+            <table id="timesTableOutput">
+                <thead>
+                <tr>
+                    <th>Multiplicand</th>
+                    <th></th>
 
-            <script src="script.js"></script>
+                    <th>Multiplier</th>
+                    <th></th>
 
 
+                    <th>Result</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </div>
     </section>
 </main>
@@ -78,40 +75,6 @@
     </div>
 </footer>
 <script src="../assets/js/timestable.js"></script>
-
-
-<!--<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <h1>Times Tables Demo</h1>
-
-  <div class="dropdown">
-    <button class="dropbtn">Select Times Table</button>
-    <div class="dropdown-content" id="timesTableSelectContainer">
-    </div>
-  </div>
-
-  <table id="timesTableOutput">
-    <thead>
-      <tr>
-        <th>Multiplicand</th>
-        <th>Multiplier</th>
-        <th>Result</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
-
-  <script src="script.js"></script>
-</body>
-</html>
--->
-
-
 </body>
 
 
