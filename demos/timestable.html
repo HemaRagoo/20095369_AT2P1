@@ -26,32 +26,35 @@
 <main>
     <section>
         <header class="clock">
-            <h2>
-                Digital Clock
-            </h2>
+
         </header>
 
-        <div id="digital-clock">
-            <div id="date-clock">
-                 <span id="date">
+        <div id="times-table">
 
-            </span>
-                <span id="month">
+            <h1>Times Tables Demo</h1>
 
-            </span>
-                <span id="day">
-            </span>
+            <div class="dropdown">
 
+                <div class="dropdown-content">
+                    <select id="timesTableSelect">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+
+                        <button class="dropbtn">Select Times Table</button>
+                    </select>
+                </div>
             </div>
-            <div id = "clock-wrapper">
 
-            <span id="hour">
+            <div id="timesTableOutput"></div>
 
-            </span>
-                <span id="colon">:</span>
-                <span id="minute">
-            </span>
-            </div>
+            <script src="script.js"></script>
 
 
         </div>
@@ -76,6 +79,8 @@
 </footer>
 <script src="../assets/js/timestable.js"></script>
 </body>
+
+
 
 
 </html>

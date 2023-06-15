@@ -21,11 +21,11 @@ function getTimeString(date, is24HourFormat) {
     let timeFormat = is24HourFormat ? '24-hour' : '12-hour';
 
     if (is24HourFormat) {
-        return `${formatTime(hours)}:${formatTime(minutes)}`;
+        return `${formatTime(hours)}<span class="clock"></span>${formatTime(minutes)}`;
     } else {
         let amPm = hours >= 12 ? 'PM' : 'AM';
         hours = hours % 12 || 12;
-        return`${formatTime(hours)}:${formatTime(minutes)} ${amPm}`;
+        return `${formatTime(hours)}<span class="clock"></span>${formatTime(minutes)} ${amPm}`;
     }
 }
 
@@ -45,9 +45,13 @@ function updateTime() {
     let timeString = getTimeString(now, is24HourFormat);
     let dateString = getDateInfo(now);
 
-    timeElement.textContent = timeString;
+    timeElement.innerHTML = timeString;
     dateElement.textContent = dateString;
 }
+
+
+
+
 
 updateTime();
 setInterval(updateTime, 1000);
@@ -59,56 +63,3 @@ for (let i = 0; i < toggleButtons.length; i++) {
         updateTime();
     });
 }
-
-
-// //
-// function getTimeString(date, is24HourFormat) {
-//     let hours = date.getHours();
-//     let minutes = date.getMinutes();
-//     let seconds = date.getSeconds();
-//     let timeFormat = is24HourFormat ? '24-hour' : '12-hour';
-//
-//     if (is24HourFormat) {
-//         return `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
-//     } else {
-//         let amPm = hours >= 12 ? 'PM' : 'AM';
-//         hours = hours % 12 || 12;
-//         return `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)} ${amPm}`;
-//     }
-// }
-//
-// function formatTime(time) {
-//     return time.toString().padStart(2, '0');
-// }
-//
-// function getDateInfo(date) {
-//     let day = date.toLocaleString('en-US', { weekday: 'long' });
-//     let month = date.toLocaleString('en-US', { month: 'long' });
-//     let dayOfMonth = date.getDate();
-//     let year = date.getFullYear();
-//     return `${day}, ${month} ${dayOfMonth}, ${year}`;
-// }
-//
-// function updateTime() {
-//     let now = new Date();
-//     let timeString = getTimeString(now, is24HourFormat);
-//     let dateString = getDateInfo(now);
-//
-//     timeElement.textContent = timeString;
-//     dateElement.textContent = dateString;
-// }
-//
-// let timeElement = document.getElementById('time');
-// let dateElement = document.getElementById('date');
-// let is24HourFormat = true;
-//
-// updateTime();
-// setInterval(updateTime, 1000);
-//
-// let toggleButtons = document.getElementsByName('clock-toggle');
-// for (let i = 0; i < toggleButtons.length; i++) {
-//     toggleButtons[i].addEventListener('change', function() {
-//         is24HourFormat = this.id === '24-hour';
-//         updateTime();
-//     });
-// }
