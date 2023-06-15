@@ -1,0 +1,22 @@
+.clock-container {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.toggle-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#time {
+    margin-bottom: 10px;
+}
+
+#date {
+    font-size: 24px;
+}
+
+label {
+    margin-right: 10px;
+}
