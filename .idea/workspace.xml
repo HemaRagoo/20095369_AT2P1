@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be15d83b-465e-4a44-b7a5-294443b30695" name="Changes" comment="times table">
-      <change afterPath="$PROJECT_DIR$/assets/js/bday.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demos/bday.html" afterDir="false" />
+    <list default="true" id="be15d83b-465e-4a44-b7a5-294443b30695" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/demo.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/simon-game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bday.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bday.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/clock-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/clock-js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/timestable.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/timestable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/bday.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/bday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/clock.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/clock.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/simon_game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/timestable.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/timestable.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +53,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/hemal/source/repos/20095369_AT2P1_WebTech_Part2",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="clock-js.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/js/clock-js.js" working-dir="$PROJECT_DIR$/assets/js">
       <method v="2" />
@@ -178,6 +174,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2ndDraft" />

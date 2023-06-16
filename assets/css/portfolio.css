@@ -102,6 +102,54 @@ section {
     flex-direction: column;
     align-items: center;
 }
+.contact-page-content {
+    background-color: papayawhip;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 6rem 2rem 6rem;
+    padding: 0 3rem 0 3rem;
+}
+
+.contact-page-forms {
+    padding: 2rem;
+}
+
+.name-insert {
+    background-color: white;
+    border: 1px #FFD074 solid;
+    color: dimgrey;
+    width: 100%;
+    min-width: 25vw;
+    max-width: 100%;
+    padding: .25rem;
+}
+.contact-insert{
+    background-color: white;
+    border: 1px #FFD074 solid;
+    color: dimgrey;
+    min-width: 25vw;
+    max-width: 100%;
+    padding: .25rem;
+}
+.message-insert {
+    background-color: white;
+    border: 1px #FFD074 solid;
+    color: dimgrey;
+    min-width: 25vw;
+    max-width: 100%;
+    padding: .25rem;
+}
+.contact-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    color: lightgrey;
+}
+
+.contact-map{
+    padding-left: 5rem;
+}
 
 .contact-form label {
     margin-bottom: 1rem;
@@ -143,6 +191,33 @@ section {
     flex: 1;
 
 }
+
+/*Demo*/
+
+#clock-button, #bday-button, #table-button{
+
+    padding: 0.5rem;
+    background-color: peachpuff;
+    color: white;
+
+    border: none;
+    border-radius: 0;
+    margin-right: 3rem;
+
+    /*display: flex;*/
+    /*flex-direction: row-reverse;*/
+    /*gap: 1rem;*/
+
+}
+
+#clock-button > a, #bday-button >a, #table-button > a {
+    text-decoration: none;
+    color: grey;
+
+
+}
+
+
 
 /*Digital Clock*/
 .digital-clock {
@@ -268,4 +343,32 @@ select {
     font-weight: bold;
 }
 
-demo_button
+.birthday-generator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5rem;
+    background-color: peachpuff;
+    padding: 1rem;
+
+
+}
+
+.times-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5rem;
+    background-color: peachpuff;
+    padding: 1rem;
+
+}
+
+.demo_write{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+}
