@@ -1,10 +1,12 @@
+let dom = document
+
 // Get current date
 const currentDate = new Date();
 
 // Get DOM elements
 const yearSelect = dom.getElementById('year');
 const monthSelect = dom.getElementById('month');
-const daySelect = dom.getElementById('day');
+let daySelect = dom.getElementById('day');
 const resultDiv = dom.getElementById('result');
 
 // Populate the year options from 1900 to the current year
@@ -28,13 +30,12 @@ function updateDays() {
         let daysInMonth = new Date(selectedYear, selectedMonth, 0).getDate();
         for (let i = 1; i <= daysInMonth; i++) {
             const option = dom.createElement('option');
-            option.value = i;
-            option.text = i;
+            option.value = i.toString();
+            option.text = i.toString();
             daySelect.appendChild(option);
         }
     }
 }
-
 // Update the number of days in February based on the selected year (leap year or not)
 yearSelect.addEventListener('change', updateDays);
 
@@ -42,7 +43,7 @@ yearSelect.addEventListener('change', updateDays);
 function calculateDifference() {
     const selectedYear = parseInt(yearSelect.value);
     const selectedMonth = parseInt(monthSelect.value);
-    let selectedDay = parseInt(daySelect.value);
+    let selectedDay = parseInt(daySelect.value.toString());
 
     // Check if a valid date is selected
     if (isNaN(selectedYear) || isNaN(selectedMonth) || isNaN(selectedDay)) {

@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be15d83b-465e-4a44-b7a5-294443b30695" name="Changes" comment="add comments">
+    <list default="true" id="be15d83b-465e-4a44-b7a5-294443b30695" name="Changes" comment="final draft">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bday.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bday.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/clock-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/clock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demos/bday.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/bday.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demos/clock.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/clock.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/timestable.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/timestable.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +49,18 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="clock-js.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/js/clock-js.js" working-dir="$PROJECT_DIR$/assets/js">
+  <component name="RunManager" selected="Node.js.bday.js">
+    <configuration name="bday.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/js/bday.js" working-dir="$PROJECT_DIR$/assets/js">
       <method v="2" />
     </configuration>
+    <configuration name="clock.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/js/clock.js" working-dir="$PROJECT_DIR$/assets/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.bday.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -157,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686896329389</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="final draft">
+      <created>1686897712055</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686897712055</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +199,7 @@
     <MESSAGE value="time table" />
     <MESSAGE value="times table" />
     <MESSAGE value="add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
+    <MESSAGE value="final draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="final draft" />
   </component>
 </project>
