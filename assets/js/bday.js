@@ -65,4 +65,29 @@ function calculateDifference() {
     // Display the result
     resultDiv.innerHTML = 'Difference in days: ' + differenceInDays + '<br>' +
         'Difference in years: ' + differenceInYears.toFixed(2);
+
+    // Display the result
+    if (selectedMonth === currentDate.getMonth() + 1 && selectedDay === currentDate.getDate()) {
+        const greetings = [
+            'Happy Birthday [English]',
+            'Joyeux anniversaire! [French]',
+            'Alles Gute zum Geburtstag! [German]',
+            'Buon compleanno! [Italian]',
+            'Penblwydd hapus! [Welsh]',
+            'qoSlIj DatIvjaj [Klingon]',
+            'Chestit Rozhden den! [Bulgarian]',
+            'Shēngrì kuàilè! [Chinese]',
+            'Tillykke med fødselsdagen! [Danish]',
+            'Hyvää syntymäpäivää! [Finnish]',
+            'janmadin mubaarak! [Hindi]',
+            'Otanjōbiomedetōgozaimasu! [Japanese]',
+            'تولدت مبارک! [Persian]'
+        ];
+        const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
+        resultDiv.innerHTML = 'Happy Birthday! ' + randomGreeting;
+    } else {
+        resultDiv.innerHTML = 'Difference in days: ' + differenceInDays + '<br>' +
+            'Difference in years: ' + differenceInYears.toFixed(2);
+    }
+
 }

@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be15d83b-465e-4a44-b7a5-294443b30695" name="Changes" comment="final draft">
+    <list default="true" id="be15d83b-465e-4a44-b7a5-294443b30695" name="Changes" comment="final draft for recording">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/bday.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bday.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/clock-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/clock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/bday.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/bday.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/clock.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/clock.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686897712055</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="final draft for recording">
+      <created>1686899821081</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686899821081</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +186,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="3nd_draft" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -200,6 +215,7 @@
     <MESSAGE value="times table" />
     <MESSAGE value="add comments" />
     <MESSAGE value="final draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="final draft" />
+    <MESSAGE value="final draft for recording" />
+    <option name="LAST_COMMIT_MESSAGE" value="final draft for recording" />
   </component>
 </project>
